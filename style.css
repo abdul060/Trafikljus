@@ -1,0 +1,37 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+.trafikljus{
+    
+    background: white;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.ljus-red{
+    background: red;
+    border: 10px solid darkred;
+    aspect-ratio: 1/1;
+}
+
+.ljus-orange{
+    background: yellow;
+    border: 10px solid darkgoldenrod;
+    aspect-ratio: 1/1;
+}
+
+.ljus-green{
+    background: green;
+    border: 10px solid darkgreen;
+    aspect-ratio: 1/1;
+}
